@@ -1,1 +1,1 @@
-https://github.com/MichalCiachera/goit-markup-hw-04.git
+https://michalciachera.github.io/goit-markup-hw-04/
