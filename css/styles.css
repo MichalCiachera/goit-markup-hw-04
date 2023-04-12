@@ -242,12 +242,15 @@ ul {
   gap: 10px;
 }
 .section-header {
+  margin: auto;
+  background-color: var(--bakground-one);
+}
+.container-header-two {
   color: var(--color-five);
   padding-top: 200px;
   padding-bottom: 200px;
   width: 1600px;
   margin: auto;
-  background-color: var(--backgraund-nine);
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
@@ -366,7 +369,6 @@ ul {
 }
 .container-projekt-box:hover {
   background: var(--color-five);
-  border: 1px solid var(--background-three);
   box-shadow: 0px 1px 1px var(--background-four),
     0px 4px 4px var(--backgraund-twelve), 1px 4px 6px var(--backgraund-thirteen);
 }
