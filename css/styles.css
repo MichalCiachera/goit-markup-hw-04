@@ -72,6 +72,10 @@ ul {
   cursor: pointer;
   font-weight: 500;
 }
+.contact:hover,
+.contact:focus {
+  color: var(--color-two);
+}
 .header-h-one {
   font-size: 44px;
   line-height: 1.36;
@@ -433,6 +437,11 @@ ul {
   background-color: var(--color-two);
   border-radius: 50%;
 }
+.icon:focus {
+  fill: var(--color-five);
+  background-color: var(--color-two);
+  border-radius: 50%;
+}
 .section-our-customers {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -459,6 +468,11 @@ ul {
   fill: var(--color-nine);
 }
 .container-our-customers-main-box:hover {
+  border: 1px solid var(--color-two);
+  border-radius: 4px;
+  fill: var(--color-two);
+}
+.container-our-customers-main-box:focus {
   border: 1px solid var(--color-two);
   border-radius: 4px;
   fill: var(--color-two);
@@ -501,6 +515,11 @@ ul {
   border-radius: 50%;
 }
 .icon-footer:hover {
+  fill: var(--color-five);
+  background-color: var(--color-two);
+  border-radius: 50%;
+}
+.icon-footer:focus {
   fill: var(--color-five);
   background-color: var(--color-two);
   border-radius: 50%;
